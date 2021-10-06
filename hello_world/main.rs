@@ -6,7 +6,10 @@ fn main(){
     num = 11;
     println!("format {} arguments", num);
 
-    
-    const X:i32 = 12;
+    let number;
+    number = 12;
+    println!("format {} arguments", number);
+
+    const X:i32 = 13;
     println!("format {} arguments", X);
 }
